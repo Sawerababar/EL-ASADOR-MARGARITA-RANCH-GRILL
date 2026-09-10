@@ -19,12 +19,12 @@ export const RESTAURANT_INFO = {
   googleMapsUrl: 'https://www.google.com/maps/place/El+Asador+Margarita+Ranch+Grill/@30.2603949,-97.714566,17z/data=!3m1!4b1!4m6!3m5!1s0x8644b573e7b424c7:0x102bed6081ff4f49!8m2!3d30.2603903!4d-97.7119911!16s%2Fg%2F11yrh8j5pj',
   hours: [
     { day: 'Monday', time: 'Closed', closed: true },
-    { day: 'Tuesday', time: '11:00 AM – 9:30 PM', closed: false, openHour: 11, closeHour: 21.5 },
-    { day: 'Wednesday', time: '11:00 AM – 9:30 PM', closed: false, openHour: 11, closeHour: 21.5 },
-    { day: 'Thursday', time: '11:00 AM – 9:30 PM', closed: false, openHour: 11, closeHour: 21.5 },
-    { day: 'Friday', time: '11:00 AM – 10:30 PM', closed: false, openHour: 11, closeHour: 22.5 },
-    { day: 'Saturday', time: '11:00 AM – 10:30 PM', closed: false, openHour: 11, closeHour: 22.5 },
-    { day: 'Sunday', time: '11:00 AM – 9:00 PM', closed: false, openHour: 11, closeHour: 21 },
+    { day: 'Tuesday', time: '12:00 PM – 8:00 PM', closed: false, openHour: 12, closeHour: 20 },
+    { day: 'Wednesday', time: '10:30 AM – 8:00 PM', closed: false, openHour: 10.5, closeHour: 20 },
+    { day: 'Thursday', time: '10:30 AM – 8:00 PM', closed: false, openHour: 10.5, closeHour: 20 },
+    { day: 'Friday', time: '10:30 AM – 10:00 PM', closed: false, openHour: 10.5, closeHour: 22 },
+    { day: 'Saturday', time: '10:30 AM – 10:00 PM', closed: false, openHour: 10.5, closeHour: 22 },
+    { day: 'Sunday', time: '10:30 AM – 7:00 PM', closed: false, openHour: 10.5, closeHour: 19 },
   ],
   features: [
     {
