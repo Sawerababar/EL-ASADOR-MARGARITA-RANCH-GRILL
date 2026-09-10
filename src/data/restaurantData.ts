@@ -9,9 +9,9 @@ export const RESTAURANT_INFO = {
   zip: '78702',
   fullAddress: '2617 E 7th St, Austin, TX 78702',
   neighborhood: 'East Austin',
-  phone: '(512) 645-1237',
-  rawPhone: '+15126451237',
-  email: 'hola@elasadoraustin.com',
+  phone: '(512) 770-3222',
+  rawPhone: '+15127703222',
+  email: '',
   coordinates: {
     lat: 30.2603903,
     lng: -97.7119911,

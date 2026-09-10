@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flame, Sparkles, MapPin, Calendar, ArrowRight, UtensilsCrossed } from 'lucide-react';
+import { Sparkles, MapPin, Calendar, ArrowRight, UtensilsCrossed } from 'lucide-react';
 import { RESTAURANT_INFO } from '../data/restaurantData';
 
 interface HeroProps {
@@ -27,7 +27,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
           <div className="lg:col-span-7 flex flex-col items-start">
             {/* Location & Heritage Eyebrow */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#C85227]/20 border border-[#C85227]/40 text-[#D9822B] text-xs font-semibold tracking-wider uppercase mb-6 backdrop-blur-sm">
-              <Flame className="w-3.5 h-3.5 text-[#C85227]" />
+              
               <span>East Austin, TX • Tamaulipas Firecraft</span>
             </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flame, Heart, Sparkles, CheckCircle2 } from 'lucide-react';
+import { Heart, Sparkles, CheckCircle2 } from 'lucide-react';
 import { RESTAURANT_INFO } from '../data/restaurantData';
 
 export const StorySection: React.FC = () => {
@@ -39,7 +39,7 @@ export const StorySection: React.FC = () => {
 
             {/* Heritage Badge */}
             <div className="absolute -top-4 -left-4 z-20 bg-[#171412] text-white p-4 rounded-xl shadow-lg border border-[#3A3029] hidden sm:flex items-center gap-3">
-              <Flame className="w-6 h-6 text-[#C85227]" />
+              
               <div>
                 <span className="block text-xs uppercase tracking-wider text-[#A89C8E]">Specialty</span>
                 <span className="block text-sm font-bold font-serif text-[#D9822B]">Tamaulipas-Style Barbecue</span>

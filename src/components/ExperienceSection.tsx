@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sun, Users, Music, Flame, Calendar } from 'lucide-react';
+import { Sun, Users, Music, Calendar } from 'lucide-react';
 
 interface ExperienceSectionProps {
   onOpenReservation: () => void;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { MenuItem } from '../types';
 import { MENU_ITEMS } from '../data/restaurantData';
-import { Plus, Sparkles, Flame, Check } from 'lucide-react';
+import { Plus, Sparkles, Check } from 'lucide-react';
 
 interface SignatureDishesProps {
   onAddToCart: (item: MenuItem) => void;
@@ -25,7 +25,7 @@ export const SignatureDishes: React.FC<SignatureDishesProps> = ({
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8DFC8] text-[#C85227] text-xs font-semibold uppercase tracking-wider mb-3">
-              <Flame className="w-3.5 h-3.5 text-[#C85227]" />
+              
               <span>Signatures from the Live Fire Hearth</span>
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F1A17] tracking-tight">
@@ -123,7 +123,7 @@ export const SignatureDishes: React.FC<SignatureDishesProps> = ({
         <div className="mt-12 bg-[#171412] text-white rounded-2xl p-6 sm:p-8 border border-[#2F2823] flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-xl bg-[#C85227]/20 border border-[#C85227]/40 flex items-center justify-center shrink-0">
-              <Flame className="w-6 h-6 text-[#D9822B]" />
+              
             </div>
             <div>
               <h3 className="font-serif text-lg font-bold text-white">

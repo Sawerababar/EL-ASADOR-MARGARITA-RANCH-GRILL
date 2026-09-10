@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CateringInquiry } from '../types';
 import { RESTAURANT_INFO } from '../data/restaurantData';
-import { Flame, X, CheckCircle, Users, Calendar, Phone, Mail, Sparkles } from 'lucide-react';
+import { X, CheckCircle, Users, Calendar, Phone, Mail, Sparkles } from 'lucide-react';
 
 interface CateringModalProps {
   isOpen: boolean;
@@ -49,7 +49,7 @@ export const CateringModal: React.FC<CateringModalProps> = ({ isOpen, onClose })
           </button>
 
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#C85227]/20 border border-[#C85227]/40 text-[#D9822B] text-xs font-semibold uppercase tracking-wider mb-2">
-            <Flame className="w-3.5 h-3.5" />
+            
             <span>Parrillada Catering & Events</span>
           </div>
 

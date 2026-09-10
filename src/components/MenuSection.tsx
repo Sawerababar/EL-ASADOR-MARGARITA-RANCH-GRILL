@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { MenuItem, MenuCategory, DietaryTag } from '../types';
 import { MENU_ITEMS, MENU_CATEGORIES } from '../data/restaurantData';
-import { Search, Plus, Sparkles, Flame, Check, SlidersHorizontal, Info } from 'lucide-react';
+import { Search, Plus, Sparkles, Check, SlidersHorizontal, Info } from 'lucide-react';
 
 interface MenuSectionProps {
   onAddToCart: (item: MenuItem, selectedOption?: string, specialInstructions?: string) => void;
@@ -229,7 +229,7 @@ export const MenuSection: React.FC<MenuSectionProps> = ({ onAddToCart }) => {
                       )}
                       {item.tags.includes('spicy') && (
                         <span className="inline-flex items-center gap-0.5 bg-[#8C2318] text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                          <Flame className="w-2.5 h-2.5" />
+                          
                           Spicy
                         </span>
                       )}

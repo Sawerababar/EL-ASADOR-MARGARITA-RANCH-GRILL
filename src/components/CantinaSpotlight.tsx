@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Wine, GlassWater, Flame, Plus } from 'lucide-react';
+import { Sparkles, Wine, GlassWater, Plus } from 'lucide-react';
 import { MenuItem } from '../types';
 import { MENU_ITEMS } from '../data/restaurantData';
 
